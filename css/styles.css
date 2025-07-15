@@ -1,0 +1,55 @@
+/* New Additions */
+.hidden {
+  display: none;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.toggle-btn {
+  background-color: #004AAD;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.toggle-btn:hover {
+  background-color: #003080;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button[type="submit"] {
+  background-color: #004AAD;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #003080;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.9em;
+}
