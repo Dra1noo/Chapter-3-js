@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demar | Video Editor</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1><span id="type-effect"></span></h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Yo, I’m Demar. I cut, edit, and remix stories with style. This portfolio’s just a little peek into my world of video editing.</p>
+    </section>
+
+    <section id="work">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <button class="toggle-btn">Show Details</button>
+        <div class="details hidden">
+          <p>Cut a promo reel for a Toronto event. Focused on fast pacing, bass transitions, and vibe sync.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Project 2</h3>
+        <button class="toggle-btn">Show Details</button>
+        <div class="details hidden">
+          <p>Edited a 1-minute IG reel for a local artist. Chopped it up tight to match the beat and mood.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Say something..." required></textarea>
+        <button type="submit">Send</button>
+        <p id="formError" class="error-msg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Demar Edits</p>
+  </footer>
+
+</body>
+</html>
